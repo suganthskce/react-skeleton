@@ -1,0 +1,40 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "Skeleton of React framework with Webpack and babel implemented.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development",
+    "dev-build": "webpack --mode development",
+    "start": "webpack-dev-server --mode production",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suganthskce/react-skeleton.git"
+  },
+  "author": "Suganth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suganthskce/react-skeleton/issues"
+  },
+  "homepage": "https://github.com/suganthskce/react-skeleton#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-hot-loader": "^4.12.18"
+  }
+}
